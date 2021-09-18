@@ -44,8 +44,7 @@ function crearHTML() {
     
     li.innerText = tarea.tarea;
     botonBorrar.innerText = 'X';
-    
-    contenedor.classList.add('lista');
+
     li.classList.add('li');
     botonBorrar.classList.add('borrar');
     
