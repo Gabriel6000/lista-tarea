@@ -29,8 +29,6 @@ function agregarTarea(e) {
   
   listaTarea = [...listaTarea, infoTarea];
   
-  validarTarea(tarea)
-  
   crearHTML();
   
 }
@@ -44,7 +42,7 @@ function crearHTML() {
     
     li.innerText = tarea.tarea;
     botonBorrar.innerText = 'X';
-
+    
     li.classList.add('li');
     botonBorrar.classList.add('borrar');
     
